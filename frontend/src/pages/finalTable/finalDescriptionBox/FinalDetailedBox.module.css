@@ -1,0 +1,125 @@
+/* .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; 
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.text-input {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  background: rgb(243, 246, 249);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px 10px;
+  color: #20262d;
+  transition: width 300ms ease;
+}
+.text-input:hover {
+  background: #eaeef3;
+  border-color: black;
+}
+
+.text-input:focus {
+  outline: none;
+  transition: width 200ms ease-out;
+}
+.text-input::placeholder {
+  font-family: "Dosis", sans-serif;
+  color: rgb(131, 127, 127);
+}
+.description {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  justify-content: center;
+  font-size: 1.1rem;
+  overflow: hidden;
+  font-weight: normal;
+  cursor: text;
+} */
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-bottom: 0.8rem;
+}
+.text-input {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  background: rgb(243, 246, 249);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px 10px;
+  color: #20262d;
+  transition: width 300ms ease;
+}
+.text-input:hover {
+  background: #eaeef3;
+  border-color: black;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* margin-top: 0.7rem; */
+}
+.text-input:focus {
+  outline: none;
+  transition: width 200ms ease-out;
+}
+.text-input::placeholder {
+  font-family: "Dosis", sans-serif;
+  color: rgb(131, 127, 127);
+}
+.wrapper{
+  position:relative;
+  /* border:2px solid gray; */
+  padding:0.8rem;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.close-button{
+  text-align: end;
+  padding: 0;
+  margin: 0;
+}
+.description-template{
+  display: "flex";
+  justify-content: baseline;
+  position:relative;
+}
+.pencil{
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.description {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+
+  font-size: 1em;
+  overflow: hidden;
+  font-weight: normal;
+  cursor: text;
+}
