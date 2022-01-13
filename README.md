@@ -14,8 +14,10 @@ This app will help you to create your time-table or schedule for your classes. T
 
 1) Add application.properties in `backend/src/main/resources`.
 2) In application.properties add folowing lines:
-    `spring.data.mongodb.uri=mongodb+srv://<username>:<password>@<cluster>.bhrvg.mongodb.net/contents`
+   
+   `spring.data.mongodb.uri=mongodb+srv://<username>:<password>@<cluster>.bhrvg.mongodb.net/contents`
     `spring.data.mongodb.database=contents`
+
 3) Run file ModelApplication using IDE or terminal.
 4) Type npm install inside terminal of VS code of frontend.
 5) Type npm start and ENJOY!!!
